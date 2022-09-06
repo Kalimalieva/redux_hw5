@@ -6,6 +6,7 @@ import Nav from "./components/Nav";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Container} from "react-bootstrap";
 import Contact from "./components/contact/Contact";
+import Text from "./text/Text";
 
 
 
@@ -18,6 +19,7 @@ function App() {
                     <Route path="/" element={<Main/>}/>
                     <Route path="/about" element={<About/>}/>
                     <Route path="/contact" element={<Contact/>}/>
+                    <Route path="/text" element={<Text/>}/>
                 </Routes>
             </BrowserRouter>
         </Container>
