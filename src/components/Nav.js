@@ -9,6 +9,7 @@ function Nav(props) {
             <nav class="d-flex p-2 bd-highlight" class="d-flex justify-content-between">
                 <Link to="/">Main Page</Link>&nbsp; &nbsp; &nbsp;
                 <Link to="/about">Lorem Page</Link>
+                <Link to="/contact">Contact Page</Link>
                 <BasketList/>
             </nav>
         </div>
