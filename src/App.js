@@ -8,6 +8,7 @@ import {Container} from "react-bootstrap";
 import Contact from "./components/contact/Contact";
 import Text from "./text/Text";
 import Aigul from "./components/Aigul";
+import GeekTech from "./components/geektech/GeekTech";
 
 
 
@@ -22,6 +23,7 @@ function App() {
                     <Route path="/contact" element={<Contact/>}/>
                     <Route path="/text" element={<Text/>}/>
                     <Route path="/user" element={<Aigul/>}/>
+                    <Route path="/geek" element={<GeekTech/>}/>
                 </Routes>
             </BrowserRouter>
         </Container>

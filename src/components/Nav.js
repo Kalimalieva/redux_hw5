@@ -12,6 +12,7 @@ function Nav(props) {
                 <Link to="/contact">Contact Page</Link>&nbsp; &nbsp; &nbsp;
                 <Link to="/text">Text Page</Link>
                 <Link to="/user">User Page</Link>
+                <Link to="/geek">Geektech Page</Link>
                 <BasketList/>
             </nav>
         </div>
