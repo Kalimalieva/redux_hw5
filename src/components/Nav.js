@@ -10,6 +10,8 @@ function Nav(props) {
                 <Link to="/">Main Page</Link>&nbsp; &nbsp; &nbsp;
                 <Link to="/about">Lorem Page</Link>
                 <Link to="/contact">Contact Page</Link>
+                <Link to="/text">Text Page</Link>
+                <Link to="/user">User Page</Link>
                 <BasketList/>
             </nav>
         </div>
